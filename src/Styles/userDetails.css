@@ -1,0 +1,9 @@
+.user-detail-container{
+    width:90%;
+    margin: auto 
+}
+@media screen and (min-width:769px){
+    .user-detail-container{
+        width:30%; 
+    }
+    }
