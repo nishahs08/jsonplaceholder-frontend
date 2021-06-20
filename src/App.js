@@ -16,7 +16,6 @@ function App() {
 	}, []);
 
 	const user = users.find(user => user.id == curr_id);
-	console.log(user)
 	return (<>
 		{(path == '/users') && <UserDetails setPath={setPath} users={users} />}
 		{(isUserRoute) && <User user={user} />}
